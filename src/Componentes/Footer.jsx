@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 
 const Footer = () => {
@@ -7,8 +7,13 @@ const Footer = () => {
   let year = date.getFullYear();
   return (
     <footer>
-      <h4>Copyright &copy; {year} | All Rights Reserved.</h4>
+      <h4>Copyright &copy; {year} | Todos los Derechos Reservados.</h4>
       <div className="footerLinks">
+
+      <a href="https://www.linkedin.com/in/alejandro-velloso-56674b2b8/" target="_blank">
+          <FaLinkedin />
+        </a>
+
         <a href="https://github.com/Alejand321" target="_blank">
           <FaGithub />
         </a>

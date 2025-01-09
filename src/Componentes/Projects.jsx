@@ -1,18 +1,22 @@
 import React from "react";
 import ProjectBox from "./ProjectBox";
-import FilmImage from "../imagenes/IMG-21.jpg";
-import GymImage from "../imagenes/IMG-22.jpg";
+import FilmImage from "../imagenes/p01.jpg";
+import InvImage from "../imagenes/p02.jpg";
+import TurImage from "../imagenes/p03.jpg";
+import CafemImage from "../imagenes/p04.jpg";
 
 
 const Projects = () => {
   return (
     <div>
       <h1 className="projectHeading">
-      Mis <b>Proyectos</b>
+      Proyectos 
       </h1>
       <div className="project">
-        <ProjectBox projectPhoto={GymImage} projectName="Levels" />
-        <ProjectBox projectPhoto={FilmImage} projectName="Movie" />
+        <ProjectBox projectPhoto={InvImage} projectName="Inventario" />
+        <ProjectBox projectPhoto={FilmImage} projectName="Coffe" />
+        <ProjectBox projectPhoto={TurImage} projectName="Turnero" />
+        <ProjectBox projectPhoto={CafemImage} projectName="Cafeteria" />
       </div>
     </div>
   );

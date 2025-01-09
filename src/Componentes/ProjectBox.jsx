@@ -4,14 +4,22 @@ import { CgFileDocument } from "react-icons/cg";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {
-    LevelsDesc:
-      ".",
-    LevelsGithub: "https://github.com/Alejand321/TURNERO",
+    InventarioDesc:
+      "Inventario para una tienda de ropa, con la posibilidad de agregar, modificar y eliminar productos.",
+    InventarioGithub: "https://github.com/Alejand321/Inventario",
     
 
-    MovieDesc:
-      "",
-    MovieGithub: "https://github.com/Alejand321/CAFETRERIA",
+    CafeteriaDesc:
+      "Sitio web de una cafeteria, con la posibilidad de ver el menu, y realizar pedidos.",
+    CafeteriaGithub: "https://github.com/Alejand321/Site-Coffee",
+
+    TurneroDesc:
+      "Aplicacion web para gestionar turnos de una clinica, con la posibilidad de ver los turnos disponibles y solicitar un turno.",
+    TurneroGithub: "https://github.com/Alejand321/Turnos",
+
+    CoffeDesc:
+      "Sitio web para la realizacion de pedidos en una cafeteria, con la posibilidad de ver el menu.",
+    CoffeGithub: "https://github.com/Alejand321/cafeteria",
   
 
 

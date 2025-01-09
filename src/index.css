@@ -8,22 +8,26 @@
   position: relative;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
-  --color: #b4b9c98f;
+  --color-primary: #3498db; 
+  --color-secondary: #2ecc71; 
+  --color-accent: #e74c3c; 
+  --color-background: #2c3e50; 
+  --color-text: #ecf0f1; 
 }
 body {
   font-family: "Raleway", sans-serif;
   background: radial-gradient(
     1700px circle at 4.48% 0%,
-    #141414 0%,
+    var(--color-background) 0%,
     #1a1b1b 100%
   );
-  color: #e7e7e7;
+  color: var(--color-text);
   min-height: 100vh;
 }
 
 b {
   font-weight: 900;
-  color: var(--color);
+  color: var(--color-primary);
 }
 
 .loader {
@@ -41,8 +45,8 @@ button {
   margin: 25px 3% 0;
   padding: 10px;
   border-radius: 5px;
-  background-color: var(--color);
-  color: #e7e7e7;
+  background-color: var(--color-primary);
+  color: var(--color-text);
   height: 50px;
   cursor: pointer;
   text-decoration: none;
@@ -50,8 +54,8 @@ button {
 }
 
 button:hover {
-  color: var(--color);
-  background-color: #e7e7e7;
+  color: var(--color-primary);
+  background-color: var(--color-text);
   transition: all ease-in-out 0.3s;
 }
 
@@ -61,11 +65,11 @@ button:hover {
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar-track {
-  background: #1b7cde;
+  background: var(--color-secondary);
   border-radius: 100px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #01111a;
+  background: var(--color-accent);
   border-radius: 100px;
 }
 

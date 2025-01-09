@@ -37,11 +37,9 @@ const About = () => {
         <Skills skill="NodeJS" />
         <Skills skill="Python" />
         <Skills skill="Django" />
-        <Skills skill="Postgres" />
-        <Skills skill="MongoDB" />
         <Skills skill="Git" />
         <Skills skill="Github" />
-        <Skills skill="Docker" />
+        
       </div>
     </>
   );
