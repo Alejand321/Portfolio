@@ -10,8 +10,7 @@ const About = () => {
             <b>Hola!</b> 
           </h1>
           <p>
-              Me llamo <b>Alejandro Velloso</b> soy un <b>Desarrollador Web Full Stack</b> y estudiante universitario cursando la carrera de <b>Ingenieria en Informatica</b>
-             en la Universidad del Cono Sur de las Americas. <br />
+              Me llamo <b>Alejandro Velloso</b> soy un <b>Desarrollador Web Full Stack</b> y estudiante universitario cursando la carrera de <b>Ingenieria en Informatica</b> en la Universidad del Cono Sur de las Americas. <br />
             <br />
             He estudiado  Desarrollo Web Full Stack en la FPUNA donde he adquirido conocimientos y habilidades 
             sólidas en lenguajes de programación, bases de datos SQL y NoSQL y metodologias ágiles.
